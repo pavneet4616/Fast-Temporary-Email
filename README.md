@@ -1,3 +1,7 @@
+📘 GitHub README.md Template for FastTempMail
+markdown
+Copy
+Edit
 # FastTempMail.org - Free Temporary Email Generator
 
 ![FastTempMail Logo](https://fasttempmail.org/assets/preview.jpg)
@@ -49,3 +53,40 @@ You can use the FastTempMail API in your own scripts or tools.
 ### ➕ Generate Email
 ```http
 GET /api/api.php?action=generate
+📩 Fetch Emails
+http
+Copy
+Edit
+GET /api/api.php?action=fetch&email=your@email.com
+❌ Delete Email
+http
+Copy
+Edit
+GET /api/api.php?action=delete&email=your@email.com
+Note: All inboxes and emails are auto-deleted after 10 minutes.
+
+💡 Use Cases
+Frontend or backend app testing
+
+Spam-free newsletter trials
+
+Bypass email sign-in walls
+
+Safe signups for forums or one-time access
+
+🧑‍💻 Developers & Open Source Support
+We plan to open-source a light version of FastTempMail for self-hosting.
+If you'd like to collaborate or fork this idea into your own tool, reach out or ⭐ this repo!
+
+📣 Share & Support
+If you like this tool, consider sharing or leaving a ⭐.
+You can also submit us to:
+
+Product Hunt
+
+AlternativeTo
+
+Hacker News
+
+📧 Contact
+Website: https://fasttempmail.org
